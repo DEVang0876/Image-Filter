@@ -22,7 +22,7 @@ This project demonstrates how to apply various **image filters** to images using
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/image-filtering.git
+   git clone https://github.com/DEVang0876/image-filtering.git
    cd image-filtering
    ```
 
