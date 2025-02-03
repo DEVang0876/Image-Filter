@@ -14,8 +14,8 @@ else:
     hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
     
     # Display the images
-    # cv2.imshow('Original Image', image)
-    # cv2.imshow('Grayscale Image', grayscale_image)
+    cv2.imshow('Original Image', image)
+    cv2.imshow('Grayscale Image', grayscale_image)
     cv2.imshow('HSV Image', hsv_image)
     
     # Wait for a key press and close all windows

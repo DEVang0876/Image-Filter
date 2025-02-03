@@ -1,45 +1,37 @@
-# Object Tracking with OpenCV
+# Image Filtering with OpenCV
 
 ## Overview
 
-This project demonstrates **real-time object tracking** using OpenCV. The program uses the **CSRT (Channel and Spatial Reliability Tracking)** algorithm or other tracking algorithms from OpenCV's `cv2.Tracker` API to track objects in a video stream or a webcam feed. The user can select the object they want to track via a Region of Interest (ROI) selection box, and the program will automatically follow and highlight that object in real time.
-
-This project aims to showcase the basics of object tracking in OpenCV using different tracking algorithms and how to implement them in a Python program.
+This project demonstrates how to apply various **image filters** to images using **OpenCV**. It showcases the use of common image processing techniques like **Gaussian blur**, **Edge detection**, **Sharpening**, and **Grayscale conversion**.
 
 ## Features
 
-- Real-time object tracking in a video stream or webcam feed.
-- Ability to select the object to track via a Region of Interest (ROI) selection box.
-- Draw bounding boxes around the tracked object.
-- Option to exit or save the frames with tracked objects.
+- Apply **Gaussian Blur** to smooth images.
+- Detect **Edges** using the Canny edge detection.
+- **Sharpen** the image to enhance details.
+- Convert images to **Grayscale**.
+- Display and save the filtered images.
 
 ## Requirements
 
 - **Python** 3.x
-- **OpenCV** 4.x or later
+- **OpenCV** 4.x
 
 ## Installation
 
-### Step 1: Clone the Repository
+1. Clone the repository:
 
-Clone the repository to your local machine.
+   ```bash
+   git clone https://github.com/your-username/image-filtering.git
+   cd image-filtering
+   ```
 
-```bash
-git clone https://github.com/DEVang0876/object-tracking.git
-cd object-tracking
-```
-
-### Step 2: Set up the Python Environment
-
-python3 -m venv object_tracking_env
-source object_tracking_env/bin/activate  # On macOS/Linux
-
-
-### Step 3: Install Dependencies
+### Requirement
 
 pip install opencv-python numpy
 
 
-#### Usage:
+### Usage
 
-Run .py file.
+
+Run .py File.
